@@ -18,35 +18,19 @@ p {
     text-align: center;
 }
 
-html {
+body {
     font-size: 25px;
     background-color: lightblue;
 }
+
 img {
+    box-sizing: content-box;
     display: block;
     margin: 0 auto;
-    height: 600px;
-    
+    width: 650px;
 }
 
-.desc {
-    padding: 1rem;
-}
-
-.bg-orange {
-    background-color: orange;
-    padding: 0 auto;
-}
-
-.multi-column-container {
-    display: flex;
-}
-
-.column {
-    width: calc(100% / 3);
-    margin: 50px auto;
-    border: 5px solid lightblue;
-    background-color: white;
-    border-radius: 15px;
-    text-align: center;   
+.carousel {
+    width: 900px;
+    margin: 0 auto;
 }
