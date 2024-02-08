@@ -78,12 +78,6 @@ body {
     margin: 25% auto;
 }
 
-.games-header {
-    font-size: 100px;
-    margin: 25px auto 25px auto;
-    text-decoration: underline;
-}
-
 .carousel {
     width: 900px;
     margin: 0  auto;
@@ -121,9 +115,4 @@ body {
     border-radius: 15px;
     padding: 0 .5rem .1rem .5rem;
     background-color: #1e5c80;
-}
-
-.game-section {
-    margin: 0 auto;
-    justify-content: center;
 }
