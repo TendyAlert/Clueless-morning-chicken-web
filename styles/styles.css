@@ -28,10 +28,6 @@ body {
     background-color: lightblue;
 }
 
-textarea {
-    font-size: 1rem;
-}
-
 .logo {
     box-sizing: content-box;
     display: block;
@@ -80,4 +76,11 @@ textarea {
 .about {
     padding-top: 7rem;
     margin: 0 25%;
+}
+
+.contact-form {
+    margin-top: 10% !important;
+    padding: 25px;
+    font-size: 1rem;
+    border: 5px solid #FFA63D;
 }

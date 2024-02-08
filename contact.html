@@ -42,45 +42,45 @@
             </form>
         </div>
     </nav>
-    
-    <div class="container">
-        <form>
+
+    <h1><strong>Contact Us</strong></h1>
+        <form class="container contact-form my-4 needs-validation">
             <div class="form-group row">
-                <label for="inputName" class="col-sm-1-12 col-form-label"></label>
-                <div class="col-sm-1-12">
-                    <input type="text" class="form-control" name="inputName" id="inputName" placeholder="">
+                <div class="col col-md-6 offset-md-3">
+                    <label class="container-fluid p-0">
+                        Name 
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                    </label> 
+                    <small id="mandatory-marker" class="form-text text-muted col-12">
+                        * This field is mandatory
+                    </small>
                 </div>
             </div>
-            <fieldset class="form-group row">
-                <legend class="col-form-legend col-sm-1-12">Contact Us</legend>
-                <div class="col-sm-1-12">
-                    
-                </div>
-            </fieldset>
             <div class="form-group row">
-                <div class="offset-sm-2 col-sm-10">
-                    <button type="submit" class="btn btn-primary">Action</button>
+                <div class="col col-md-6 offset-md-3">
+                    <label class="container-fluid p-0">
+                        Email
+                        <input type="email" class="form-control" name="email" id="email" placeholder="email@email.com" required>
+                    </label> 
+                    <small id="mandatory-marker" class="form-text text-muted col-12">
+                        * This field is mandatory
+                    </small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col col-md-6 offset-md-3">
+                    <label for="contact">
+                        Message
+                    </label>
+                        <textarea id="contact" rows="3" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col col-md-6 offset-md-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
             </div>
         </form>
-    </div>
-
-    <form>
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Your Name" required>
-        </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required placeholder="email@email.com" required>
-        </div>
-        <div>
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" cols="30" rows="10">Dear Clueless Morning Chicken Devs,</textarea>
-        </div>
-    </form>
-    
-    <h1>CONTACT PAGE</h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
