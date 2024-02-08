@@ -38,14 +38,19 @@ body {
 
 .logo-link {
     width: 50px;
-    margin-right: 75px;
+    margin-right: 25px;
+}
+
+.nav-item-margin {
+    margin-top: .4rem;
 }
 
 .btn-outline-success {
     background-color: #1e5c80;
-    color: black;
+    color: white;
     border-color: #FFA63D;
 }
+
 .btn-outline-success:hover {
     background-color: #2b8ac2;
     color: black;
@@ -73,6 +78,13 @@ body {
     margin: 0  auto;
 }
 
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators, 
+.carousel-caption {
+    background-color: rgba(0,0,0,0.2);
+}
+
 .about {
     padding-top: 7rem;
     margin: 0 25%;
@@ -83,4 +95,16 @@ body {
     padding: 25px;
     font-size: 1rem;
     border: 5px solid #FFA63D;
+}
+
+.back-to-top {
+    text-align: center;
+}
+
+.back-to-top-link {
+    color: white;
+    border: 2px solid #FFA63D;
+    border-radius: 15px;
+    padding: 0 .5rem .1rem .5rem;
+    background-color: #1e5c80;
 }
