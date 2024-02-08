@@ -116,3 +116,13 @@ body {
     padding: 0 .5rem .1rem .5rem;
     background-color: #1e5c80;
 }
+
+.game-section {
+    width: 900px;
+    margin: 0 15%;
+}
+
+.desc-container {
+    box-sizing: border-box;
+    margin: 0 25%;
+}
