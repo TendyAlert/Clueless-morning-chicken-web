@@ -30,9 +30,10 @@ body {
 
 .logo {
     box-sizing: content-box;
-    display: block;
+    display: grid;
+    width: 100%;
     margin: 0 auto;
-    width: 650px;
+    max-width: 650px;
     padding-bottom: 7rem;
 }
 
@@ -79,8 +80,14 @@ body {
 }
 
 .carousel {
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     margin: 0  auto;
+}
+
+.carousel-item {
+    width: 100%;
+    max-width: 900px;
 }
 
 .carousel-control-prev,
