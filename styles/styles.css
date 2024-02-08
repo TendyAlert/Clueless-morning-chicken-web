@@ -13,9 +13,14 @@ h1, h2, h3 {
     text-align: center;
     color: black;
 }
+h2 {
+    font-size: 50px;
+}
+
 p {
     font-family: 'Unitblock';
     text-align: center;
+    color: black;
 }
 
 body {
@@ -23,14 +28,56 @@ body {
     background-color: lightblue;
 }
 
-img {
+textarea {
+    font-size: 1rem;
+}
+
+.logo {
     box-sizing: content-box;
     display: block;
     margin: 0 auto;
     width: 650px;
+    padding-bottom: 7rem;
+}
+
+.logo-link {
+    width: 50px;
+    margin-right: 75px;
+}
+
+.btn-outline-success {
+    background-color: #1e5c80;
+    color: black;
+    border-color: #FFA63D;
+}
+.btn-outline-success:hover {
+    background-color: #2b8ac2;
+    color: black;
+}
+
+.bys-title {
+    width: 900px;
+    height: 500px;
+    background-color: #122d14;
+}
+
+.orange-background {
+    background-color: #FFA63D;
+    width: 900px;
+    height: 500px;
+    text-align: center;
+}
+
+.h2-margin {
+    margin: 25% auto;
 }
 
 .carousel {
     width: 900px;
-    margin: 0 auto;
+    margin: 0  auto;
+}
+
+.about {
+    padding-top: 7rem;
+    margin: 0 25%;
 }
